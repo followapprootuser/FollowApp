@@ -1,0 +1,20 @@
+<resources>
+    <color name="ColorPrimary">#00a98e</color>
+    <color name="ColorPrimaryDark">#019981</color>
+    <color name="ColorBase">#FFFFFF</color>
+    <color name="TextColor">#FFFFFF</color>
+    <color name="VerseTextColorOne">#FFCD00</color>
+    <color name="QuestionTextColor">#555656</color>
+    <color name="SubTextColor">#A9A9A9</color>
+    <color name="HorizontalDivider">#D6D6D6</color>
+    <color name="ColoredHorizontalDivider">#17a285</color>
+    <color name="CircleActive">#FFFFFF</color>
+    <color name="ColorPrimarySession">#393939</color>
+    <color name="ButtonStrokeColor">#0080BB</color>
+    <color name="white">#FFF</color>
+    <color name="l_blue">#909BAA</color>
+    <color name="d_blue">#6D7B92</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="d_gray">#666</color>
+    <color name="black">#000</color>
+</resources>

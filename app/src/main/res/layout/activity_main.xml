@@ -1,0 +1,98 @@
+<!-- The first child in the layout is for the main Activity UI-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/reveal_root"
+    android:background="@color/ColorPrimary"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/shared_target"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:transitionName="@string/transition_reveal1"/>
+
+        </RelativeLayout>
+    </include>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/tool_bar"
+        android:orientation="vertical">
+
+        <!-- Progressbar -->
+        <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+            android:id="@+id/page_progress"
+            android:layout_width="280dp"
+            android:layout_height="20dp"
+            android:layout_centerHorizontal="true"
+            android:indeterminate="false"
+            app:mpb_progressStyle="horizontal"
+            style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="550dp"
+            android:layout_below="@+id/page_progress"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view"
+                android:layout_width="340dp"
+                android:layout_height="458dp"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="4dp"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardPreventCornerOverlap="false">
+
+                <com.digital.strategy.followup.CustomViewPager
+                    android:id="@+id/pager"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    ></com.digital.strategy.followup.CustomViewPager>
+
+            </android.support.v7.widget.CardView>
+
+            <ImageView
+                android:id="@+id/card_bottom"
+                android:layout_width="340dp"
+                android:layout_height="20dp"
+                android:layout_alignParentBottom="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_card"
+                android:layout_marginTop="42dp"/>
+
+        </RelativeLayout>
+
+        <!--<com.quickblox.videochat.webrtc.view.QBGLVideoView
+            android:id="@+id/remoteVideoView"
+            android:layout_width="115dp"
+            android:layout_height="150dp"/>-->
+
+        <!--<com.quickblox.videochat.webrtc.view.QBGLVideoView
+            android:id="@+id/localVideoVidew"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:layout_alignParentRight="true"/>-->
+
+    </RelativeLayout>>
+
+</RelativeLayout>
+

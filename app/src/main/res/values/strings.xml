@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">FollowApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_follow_up_one_page_one">FollowUpOnePageOne</string>
+    <string name="title_activity_follow_up_one_page_two">FollowUpOnePageTwo</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="MSG_00001">NEW RELATIONSHIP</string>
+    <string name="MSG_00002">What does the resurrection prove to us about Jesus Christ? Lorem Impsum dolor sample</string>
+    <string name="MSG_00003">Romans 1:4</string>
+    <string name="MSG_00004">"And who through the Spirit of holiness was appointed the Son of God in power by his resurrection from the dead: Jesus Christ our Lord."</string>
+    <string name="MSG_00005">Romans 1:4</string>
+    <string name="MSG_00006">Read</string>
+    <string name="MSG_00007">Swipe to next page</string>
+    <string name="MSG_00008">Write answer Here</string>
+    <string name="MSG_00009">Show hint</string>
+    <string name="MSG_00010">Follow Up One</string>
+    <string name="MSG_00011">Beginning your New Life in Christ</string>
+    <string name="MSG_00012">Follow Up Series</string>
+    <string name="MSG_00013">Let\'\ss get started</string>
+    <string name="MSG_00014">New Relationship</string>
+    <string name="MSG_00015">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit
+                            in voluptate velit esse cillum dolore
+                            eu fugiat nulla pariatur.
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit
+                            in voluptate velit esse cillum dolore
+                            eu fugiat nulla pariatur.Ut enim ad minim
+                            veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit
+                            in voluptate velit esse cillum dolore
+                            eu fugiat nulla pariatur.
+                            </string>
+    <string name="MSG_0016">1</string>
+    <string name="MSG_0017">of</string>
+    <string name="MSG_0018">3</string>
+    <string name="MSG_0019">Select mode of session</string>
+    <string name="MSG_0020">Choose purpose of how the material will
+                            be use for a certain span of time.</string>
+    <string name="MSG_0021">Practice</string>
+    <string name="MSG_0022">Actual</string>
+    <string name="MSG_0024">Select your role</string>
+    <string name="MSG_0025">Decide which role you take when
+                            a session is started</string>
+    <string name="MSG_0026">Student</string>
+    <string name="MSG_0027">Leader</string>
+    <string name="MSG_0028">Practice Session</string>
+    <string name="MSG_0029">This session is designed to train how a follow up session runs</string>
+    <string name="MSG_0030">Actual Session</string>
+    <string name="MSG_0031">This session is designed for a live follow up session</string>
+    <string name="title_activity_screen_kparagraph">FollowApp</string>
+    <string name="title_activity_session">FollowApp</string>
+    <string name="title_activity_select_user">FollowApp</string>
+    <string name="title_activity_launcher">FollowApp</string>
+    <string name="transition_reveal1">transition_reveal1</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="AppTheme.Base"/>
+
+    <!--   <style name="_AppTheme" parent="android:Theme.Holo.Light"> -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+   <!-- <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <item name="android:colorPrimary">@color/ColorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:textColorSecondary">#ffffff</item>
+        <item name="android:navigationBarColor">@color/ColorPrimaryDark</item>
+
+    </style>
+
+    <style name="AppTheme.Base.Launcher" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <item name="android:colorPrimary">@color/TextColor</item>
+        <item name="android:colorPrimaryDark">@color/TextColor</item>
+        <item name="android:navigationBarColor">@color/TextColor</item>
+    </style>
+
+    <style name="AppTheme.Base.FullScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <item name="android:colorPrimary">@color/TextColor</item>
+        <item name="android:colorPrimaryDark">#aad3d8</item>
+        <item name="android:navigationBarColor">#eff7f9</item>
+    </style>
+
+    <style name="Widget.MaterialProgressBar.ProgressBar.Horizontal" parent="android:Widget.ProgressBar.Horizontal">
+        <!--
+        Disabled for correct behavior on Android 4.x
+        <item name="android:progressDrawable">@null</item>
+        -->
+        <item name="android:indeterminateDrawable">@null</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:maxHeight">50dp</item>
+    </style>
+</resources>

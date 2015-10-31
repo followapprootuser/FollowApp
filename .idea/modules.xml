@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MainPageActivity.iml" filepath="$PROJECT_DIR$/MainPageActivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/videochat-webrtc/videochat-webrtc.iml" filepath="$PROJECT_DIR$/videochat-webrtc/videochat-webrtc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/videochat_webrtc/videochat_webrtc.iml" filepath="$PROJECT_DIR$/videochat_webrtc/videochat_webrtc.iml" />
+    </modules>
+  </component>
+</project>
